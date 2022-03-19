@@ -1,0 +1,64 @@
+/* .App {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+
+  flex-direction: row;
+} */
+
+/* .app__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 40vh;
+} */
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+li {
+  margin-top: 8px;
+}
+
+.user-name {
+  cursor: pointer;
+}
+
+p.user-name:hover {
+  opacity: 0.6;
+}
+
+div.pages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.p__opensans {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+p {
+  font-family: var(--font-alt);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
